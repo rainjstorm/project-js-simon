@@ -7,8 +7,21 @@
     <title>Simon</title>
 
     <link rel="stylesheet" href="main.css">
+
+    <!--Start button style attempt, ideally transpose to CSS-->
+    <style>
+    #startButton {
+      position: absolute;
+      top: 400px;
+      left: 250px;
+      width: 200px;
+      height: 50px;
+      font-size: 10px
+    }
+    </style>
+
   </head>
-  <body>
+  <body onload="initialize()">
     <section id="content">
       <h1>Simon</h1>
 
@@ -40,5 +53,17 @@
 
     <script src="simon.js"></script>
     <script src="buttons.js"></script>
+
+    <!--Start button attempts-->
+    <button type="button" id="startButton" onclick="initialize()">do it for the vine</button>
+    <script>
+      var StartButton = document.getElementById('startButton');
+
+      //function initialize() {
+        //supposed to cloak game screen b4 clicking Start (youtube.com/watch?v=T_F7xL7wpew&t=1m25s)
+        //startButton.style.display = "none";
+  //}
+    </script>
+
   </body>
 </html>
