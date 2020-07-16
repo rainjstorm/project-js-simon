@@ -12,14 +12,19 @@ document.querySelector("simon-button.green").innerHTML = Boolean(10 > 9) {
   if (playing = true) {
 
       // oQuickReply.swap('somid');
-    document.getElementById("simon-button.green.lightUp").onload = function() {myFunction()};
-      let simon-button.green.lightUp
+      //document.getElementById("simon-button.green.lightUp").onload = function() {myFunction()};
+      //let simon-button.green.lightUp
 
+
+      function lightUpFirstButton() {
+        var element = document.getElementById("simon-button.green.lightUp");
+        element.classList.add("mystyle");
+      }
 
       //orange juice code
       //let nameElement = document.querySelector('#codestatus');
-     // nameElement.innerText = 'orange juice';
-     // nameElement.style.color = 'orange';
+      //nameElement.innerText = 'orange juice';
+      //nameElement.style.color = 'orange';
 
   } else {
     function() {
