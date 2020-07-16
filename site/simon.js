@@ -1,7 +1,7 @@
 // This file contains the game logic.
 // All the event-listening should happen in buttons.js
 
-document.querySelector("simon-button.green").innerHTML = Boolean(10 > 9){}
+document.querySelector("simon-button.green").innerHTML = Boolean(10 > 9) {
 
   var playing = false;
   var startButton;
@@ -10,10 +10,20 @@ document.querySelector("simon-button.green").innerHTML = Boolean(10 > 9){}
 
   //use if statements to initialize game functions after start button is pressed
   if (playing = true) {
-    document.querySelector("simon-button.green.lightUp")
+
+      // oQuickReply.swap('somid');
+    document.getElementById("simon-button.green.lightUp").onload = function() {myFunction()};
+      let simon-button.green.lightUp
+
+
+      //orange juice code
+      //let nameElement = document.querySelector('#codestatus');
+     // nameElement.innerText = 'orange juice';
+     // nameElement.style.color = 'orange';
 
   } else {
     function() {
       alert("Click the button to start the game.");
     }
   }
+}
